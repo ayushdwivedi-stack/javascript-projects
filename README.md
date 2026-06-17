@@ -168,8 +168,4 @@ LinkedIn: https://www.linkedin.com/in/ayush-dwivedi-2533b832a/
 
  If you found these projects helpful, consider giving this repository a star.
 
-## Author
-Ayush Dwivedi
-
-- GitHub: https://github.com/ayushdwivedi-stack
-- LinkedIn: https://www.linkedin.com/in/ayush-dwivedi-2533b832a/
+ 
