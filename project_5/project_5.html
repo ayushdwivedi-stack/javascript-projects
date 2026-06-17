@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Checker</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .box {
+            width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h2>Keyboard Checker</h2>
+
+        <p><strong>Key:</strong> <span id="key">-</span></p>
+        <p><strong>Key Code:</strong> <span id="code">-</span></p>
+        <p><strong>Event Code:</strong> <span id="eventCode">-</span></p>
+    </div>
+
+    <script>
+        document.addEventListener("keydown", function(event) {
+
+            document.getElementById("key").textContent = event.key;
+            document.getElementById("code").textContent = event.keyCode;
+            document.getElementById("eventCode").textContent = event.code;
+
+        });
+    </script>
+
+</body>
+</html>
